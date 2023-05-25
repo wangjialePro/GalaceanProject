@@ -1,21 +1,23 @@
-<template>
-  <div class="about">
-      <canvas style="width: 100vw; height: 100vh" id="canvas" />
-  </div>
-</template>
-
 <script setup lang="ts">
-import {BlinnPhongMaterial, Camera, MeshRenderer, PrimitiveMesh, Vector3, WebGLEngine} from "@galacean/engine";
-import {onMounted} from "vue";
-onMounted(()=>{
-  creatWeb3DAction()
+import { onMounted, nextTick } from "vue";
+import {
+  BlinnPhongMaterial,
+  Camera,
+  MeshRenderer,
+  PrimitiveMesh,
+  Vector3,
+  WebGLEngine
+} from "@galacean/engine";
+onMounted(() => {
+  nextTick(()=>{
+    creatWeb3DAction()
+  })
 })
-const creatWeb3DAction = () =>{
+function creatWeb3DAction (){
   const engine = new WebGLEngine("canvas");
-  engine.canvas.resizeByClientSize()
+  engine.canvas.resizeByClientSize();
   const scene = engine.sceneManager.activeScene;
   const rootEntity = scene.createRootEntity();
-
   // init camera
   const cameraEntity = rootEntity.createChild("camera");
   cameraEntity.addComponent(Camera);
@@ -42,12 +44,8 @@ const creatWeb3DAction = () =>{
   engine.run();
 }
 </script>
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+
+<template>
+  <canvas style="width: 100%; height: 500px" id="canvas" />
+</template>
+

@@ -2,24 +2,43 @@
   <div class="container">
     <TableList :list="menu" :actIndex="m.actIndex" @activeGroupIndex="m.chooseList"></TableList>
     <div class="line"></div>
-    <div class="right"></div>
+    <GroupItems class="right" :m="m"></GroupItems>
   </div>
+  <DialogView :mode="mode" @closeDialog="closeDialog">
+     <Cube></Cube>
+  </DialogView>
 </template>
 
 <script setup lang="ts">
 import {onMounted, reactive} from "vue";
+import DialogView from "@comp/DialogView.vue"
 import {menu} from "../../data/Menu"
+import {items} from "../../data/GroupItems"
+import GroupItems from "@comp/GroupItems.vue"
 import TableList from "@comp/TableList.vue"
-
+import Cube from "@comp/example/Cube.vue"
+const mode = reactive({
+  show: false,
+  name: ''
+})
+const closeDialog = () =>{
+  mode.show = false
+}
 const m = reactive({
   actIndex: 0,
   menu: [],
+  groupItems: [],
   chooseList(index){
     m.actIndex = index
+  },
+  chooseItem(item){
+    mode.show = true
+    mode.name = item
   }
 })
 onMounted(()=>{
   m.menu = menu
+  m.groupItems = items
 })
 
 </script>
