@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a59a51-74c3-44f1-a65f-4acd3e539e8d" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/example/Cube.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/example/Cube.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1684894585377" duration="1627000" />
       <workItem from="1684907314434" duration="8095000" />
       <workItem from="1684916309119" duration="6499000" />
-      <workItem from="1684977724886" duration="17195000" />
+      <workItem from="1684977724886" duration="17531000" />
     </task>
     <task id="LOCAL-00001" summary="feat(*): galacean">
       <created>1684917572925</created>
@@ -123,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685000211851</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(练习): 正方形旋转起来 #3">
+      <created>1685003063486</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685003063486</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +143,8 @@
     <MESSAGE value="feat(init): fix commit #1" />
     <MESSAGE value="feat(菜单栏): 菜单栏开发，接入elementplus #2" />
     <MESSAGE value="feat(练习): 正方形生成 #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 正方形生成 #3" />
+    <MESSAGE value="feat(练习): 正方形旋转起来 #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 正方形旋转起来 #3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
