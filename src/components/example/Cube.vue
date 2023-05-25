@@ -6,42 +6,57 @@ import {
   MeshRenderer,
   PrimitiveMesh,
   Vector3,
-  WebGLEngine
+  WebGLEngine,
+  DirectLight,
+  Color,
+  Script
 } from "@galacean/engine";
+import { OrbitControl } from "@galacean/engine-toolkit-controls";
+
+let  engine = null
 onMounted(() => {
   nextTick(()=>{
     creatWeb3DAction()
   })
 })
 function creatWeb3DAction (){
-  const engine = new WebGLEngine("canvas");
+  engine  = new WebGLEngine("canvas");
   engine.canvas.resizeByClientSize();
   const scene = engine.sceneManager.activeScene;
   const rootEntity = scene.createRootEntity();
   // init camera
-  const cameraEntity = rootEntity.createChild("camera");
-  cameraEntity.addComponent(Camera);
-  const pos = cameraEntity.transform.position;
-  pos.set(10, 10, 10);
-  cameraEntity.transform.position = pos;
+  const cameraEntity = rootEntity.createChild("camera_entity");
+  cameraEntity.transform.position = new Vector3(10, 10, 10);
   cameraEntity.transform.lookAt(new Vector3(0, 0, 0));
+  cameraEntity.addComponent(Camera);
+  rootEntity.addComponent(Rotate)
+  scene.background.solidColor.set(1, 1, 1, 1);
+  cameraEntity.addComponent(OrbitControl);
+  // Create a entity to add light component
+  let lightEntity = rootEntity.createChild("light");
 
-  // init light
-  scene.ambientLight.diffuseSolidColor.set(1, 1, 1, 1);
-  scene.ambientLight.diffuseIntensity = 1.2;
+  // Create light component
+  let directLight = lightEntity.addComponent(DirectLight);
+  directLight.color = new Color(1.0, 1.0, 1.0);
+  directLight.intensity = 0.5;
 
-  // init cube
-  const cubeEntity = rootEntity.createChild("cube");
-  const renderer = cubeEntity.addComponent(MeshRenderer);
-  const mtl = new BlinnPhongMaterial(engine);
-  const color = mtl.baseColor;
-  color.r = 0.0;
-  color.g = 0.8;
-  color.b = 0.5;
-  color.a = 1.0;
-  renderer.mesh = PrimitiveMesh.createCuboid(engine);
-  renderer.setMaterial(mtl);
+  // Control light direction by entity's transform
+  lightEntity.transform.rotation = new Vector3(45, 45, 45);
+
+  // Create Cube
+  let cubeEntity = rootEntity.createChild("cube");
+  let cube = cubeEntity.addComponent(MeshRenderer);
+  cube.mesh = PrimitiveMesh.createCuboid(engine, 2, 2, 2);
+  cube.setMaterial(new BlinnPhongMaterial(engine));
+  // Run Engine
   engine.run();
+  return engine
+}
+class Rotate extends Script {
+  private _tempVector = new Vector3(0.003, 0.001, 0.001);
+  onUpdate() {
+    this.entity.transform.rotate(this._tempVector);
+  }
 }
 </script>
 

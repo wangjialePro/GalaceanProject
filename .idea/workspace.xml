@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a59a51-74c3-44f1-a65f-4acd3e539e8d" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/data/GroupItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DialogView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GroupItems.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/example/Cube.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AboutView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/example/Cube.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/example/Cube.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <workItem from="1684894585377" duration="1627000" />
       <workItem from="1684907314434" duration="8095000" />
       <workItem from="1684916309119" duration="6499000" />
-      <workItem from="1684977724886" duration="14297000" />
+      <workItem from="1684977724886" duration="17195000" />
     </task>
     <task id="LOCAL-00001" summary="feat(*): galacean">
       <created>1684917572925</created>
@@ -123,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684990610187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(练习): 正方形生成 #3">
+      <created>1685000211851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685000211851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +134,8 @@
     <MESSAGE value="feat(*): 素材" />
     <MESSAGE value="feat(init): fix commit #1" />
     <MESSAGE value="feat(菜单栏): 菜单栏开发，接入elementplus #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(菜单栏): 菜单栏开发，接入elementplus #2" />
+    <MESSAGE value="feat(练习): 正方形生成 #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 正方形生成 #3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
