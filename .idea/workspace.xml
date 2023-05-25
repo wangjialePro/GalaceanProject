@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a59a51-74c3-44f1-a65f-4acd3e539e8d" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/@galacean_engine.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/source/seraphine/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/source/seraphine/scene.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/source/seraphine/scene.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/source/seraphine/textures/Mat_cwfyfr1_userboy17.bmp_diffuse.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sansimac/Desktop/GalaceanPro/GalaceanProject/src/components",
+    "last_opened_file_path": "/Users/sansimac/Desktop/GalaceanPro/GalaceanProject/public/source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/source" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public" />
@@ -87,7 +89,7 @@
       <workItem from="1684894585377" duration="1627000" />
       <workItem from="1684907314434" duration="8095000" />
       <workItem from="1684916309119" duration="6499000" />
-      <workItem from="1684977724886" duration="17531000" />
+      <workItem from="1684977724886" duration="17867000" />
     </task>
     <task id="LOCAL-00001" summary="feat(*): galacean">
       <created>1684917572925</created>
@@ -131,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685003063486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(练习): 修改readme #3">
+      <created>1685003493281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685003493281</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +153,8 @@
     <MESSAGE value="feat(菜单栏): 菜单栏开发，接入elementplus #2" />
     <MESSAGE value="feat(练习): 正方形生成 #3" />
     <MESSAGE value="feat(练习): 正方形旋转起来 #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 正方形旋转起来 #3" />
+    <MESSAGE value="feat(练习): 修改readme #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 修改readme #3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
