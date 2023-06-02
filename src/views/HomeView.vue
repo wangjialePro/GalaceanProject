@@ -5,7 +5,9 @@
     <GroupItems class="right" :m="m"></GroupItems>
   </div>
   <DialogView :mode="mode" @closeDialog="closeDialog">
-     <Cube></Cube>
+     <Cube v-if="mode.name === '正方体'"></Cube>
+     <GltfLoad v-if="mode.name === '基础练习2'"></GltfLoad>
+
   </DialogView>
 </template>
 
@@ -17,6 +19,7 @@ import {items} from "../../data/GroupItems"
 import GroupItems from "@comp/GroupItems.vue"
 import TableList from "@comp/TableList.vue"
 import Cube from "@comp/example/Cube.vue"
+import GltfLoad from "@comp/example/GltfLoad.vue"
 const mode = reactive({
   show: false,
   name: ''
