@@ -42,7 +42,7 @@
   </ListCell>
 
   <ListCell name="装饰11">
-    <dv-decoration-11 style="width: 50%;height: 50%;left: 25%;top:25%;">dv-decoration-11</dv-decoration-11>
+    <dv-decoration-11 style="width: 50%;height: 50%;left: 25%;top:25%;">上海三思中央控制系统</dv-decoration-11>
   </ListCell>
 
   <ListCell name="装饰12">

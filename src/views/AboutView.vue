@@ -2,7 +2,7 @@
   <div class="container">
     <div class="left">
       <el-collapse accordion style="width: 100%;padding-left: 10px;">
-        <el-collapse-item v-for="(group, index) in GroupData" @click = changeValue(index) :title="group.name" :key="index + group.id">
+        <el-collapse-item v-for="(group, index) in GroupData" @click = changeValue(index) :title="group.name" :key="index + '#' + group.id">
           <div class="cell" v-for="(item, key) in group.list" :key="item.name + key + 'item'">
             {{item.name}}
           </div>
@@ -21,10 +21,12 @@ import { GroupData } from "../../data/GroupData"
 import ContainerView from "@comp/container.vue"
 const mode = reactive({
   row: 0,
-  index: 0
+  index: 0,
+  data: null
 })
-const changeValue = (val) =>{
+const changeValue = (val = 0) =>{
   mode.row = val
+  mode.data = GroupData[val]
 }
 onMounted(()=>{
 

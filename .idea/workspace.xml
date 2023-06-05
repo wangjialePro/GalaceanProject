@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a59a51-74c3-44f1-a65f-4acd3e539e8d" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/data/GroupData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dist/h265.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dist/lib/libffmpeg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dist/lib/libffmpeg.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Container.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/example/GltfLoad.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/BorderList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/DecorationList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/list/ListCell.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/editor/JsonEditor.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/GroupData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/GroupData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/BorderList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/BorderList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/DecorationList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/DecorationList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AboutView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +97,7 @@
       <workItem from="1684916309119" duration="6499000" />
       <workItem from="1684977724886" duration="18246000" />
       <workItem from="1685065531902" duration="788000" />
-      <workItem from="1685580359389" duration="37070000" />
+      <workItem from="1685580359389" duration="56751000" />
     </task>
     <task id="LOCAL-00001" summary="feat(*): galacean">
       <created>1684917572925</created>
@@ -169,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685003798209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(demo): 大屏可视化调研 #5">
+      <created>1685693388347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685693388347</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +177,8 @@
     <MESSAGE value="feat(练习): 正方形旋转起来 #3" />
     <MESSAGE value="feat(练习): 修改readme #3" />
     <MESSAGE value="feat(练习): 游戏人物seraphine模型 #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(练习): 游戏人物seraphine模型 #4" />
+    <MESSAGE value="feat(demo): 大屏可视化调研 #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(demo): 大屏可视化调研 #5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

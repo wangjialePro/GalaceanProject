@@ -33,5 +33,50 @@ export const GroupData = [
         id: 7,
         name: "飞线图",
         list: []
+    },
+    {
+        id: 8,
+        name: "锥形柱图",
+        list: []
+    },
+    {
+        id: 9,
+        name: "数字翻牌器",
+        list: []
+    },
+    {
+        id: 10,
+        name: "轮播表",
+        list: []
+    },
+    {
+        id: 11,
+        name: "排名轮播表",
+        list: []
+    },
+    {
+        id: 12,
+        name: "折线图",
+        list: []
+    },
+    {
+        id: 13,
+        name: "柱状图",
+        list: []
+    },
+    {
+        id: 14,
+        name: "饼状图",
+        list: []
+    },
+    {
+        id: 15,
+        name: "雷达图",
+        list: []
+    },
+    {
+        id: 16,
+        name: "仪表盘",
+        list: []
     }
 ]
